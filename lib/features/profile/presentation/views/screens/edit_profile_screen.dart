@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/utils/strings.dart';
-import 'package:health_guard/core/widgets/custom_app_bar.dart';
-import 'package:health_guard/features/profile/presentation/views/widgets/custom_profile_image.dart';
-import 'package:health_guard/features/profile/presentation/views/widgets/custom_text_field_edit_profile.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/utils/strings.dart';
+import 'package:disease_detective/core/widgets/custom_app_bar.dart';
+import 'package:disease_detective/features/profile/presentation/views/widgets/custom_profile_image.dart';
+import 'package:disease_detective/features/profile/presentation/views/widgets/custom_text_field_edit_profile.dart';
 
 class EditProfileScreen extends StatefulWidget {
   const EditProfileScreen({super.key});

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/utils/images.dart' show AppImage;
-import 'package:health_guard/core/utils/strings.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/utils/images.dart' show AppImage;
+import 'package:disease_detective/core/utils/strings.dart';
 
 class CustomAppBarForChatBot extends StatelessWidget
     implements PreferredSizeWidget {

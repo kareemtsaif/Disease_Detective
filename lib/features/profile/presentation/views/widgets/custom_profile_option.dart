@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/widgets/custom_svg.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/widgets/custom_svg.dart';
 
 class CustomProfileOption extends StatelessWidget {
   const CustomProfileOption(
@@ -36,7 +36,6 @@ class CustomProfileOption extends StatelessWidget {
         Icons.arrow_forward_ios,
         color: AppColor.bodyColor,
         size: 24,
-        
       ),
       onTap: onTap,
       shape: RoundedRectangleBorder(

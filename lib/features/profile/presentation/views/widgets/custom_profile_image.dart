@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/utils/icons.dart';
-import 'package:health_guard/core/utils/images.dart';
-import 'package:health_guard/core/widgets/custom_svg.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/utils/icons.dart';
+import 'package:disease_detective/core/utils/images.dart';
+import 'package:disease_detective/core/widgets/custom_svg.dart';
 
 class CustomProfileImage extends StatelessWidget {
   const CustomProfileImage({super.key});

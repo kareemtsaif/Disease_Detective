@@ -1,4 +1,4 @@
-import 'package:health_guard/core/utils/images.dart';
+import 'package:disease_detective/core/utils/images.dart';
 
 List<Map<String, dynamic>> recommendedDiagnoses = [
   {
@@ -20,7 +20,7 @@ List<Map<String, dynamic>> recommendedDiagnoses = [
     'title': 'Ductal Carcinoma',
     'description': 'Cancer starting in milk ducts',
     'image': AppImage.diagnosesNine,
-  },  
+  },
   {
     'title': 'Lobular Carcinoma',
     'description': 'Cancer starting in breast lobules',
@@ -36,5 +36,4 @@ List<Map<String, dynamic>> recommendedDiagnoses = [
     'description': 'Airway inflammation leading to breathing difficulties',
     'image': AppImage.diagnosesTwelve,
   },
-  
 ];

@@ -2,8 +2,8 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:health_guard/core/functions/auto_token_manger.dart';
-import 'package:health_guard/features/auth/data/repos/auth_repo.dart';
+import 'package:disease_detective/core/functions/auto_token_manger.dart';
+import 'package:disease_detective/features/auth/data/repos/auth_repo.dart';
 part 'sign_in_state.dart';
 
 class SignInCubit extends Cubit<SignInState> {

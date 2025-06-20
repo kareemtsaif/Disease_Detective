@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/widgets/custom_svg.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/widgets/custom_svg.dart';
 
 class CustomNavigationTile extends StatelessWidget {
   final String icon;

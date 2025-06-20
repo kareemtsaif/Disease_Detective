@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/utils/images.dart';
-import 'package:health_guard/core/utils/strings.dart';
-import 'package:health_guard/core/widgets/custom_app_bar.dart';
-import 'package:health_guard/features/home/data/static/health_instruction_list.dart';
-import 'package:health_guard/features/home/presentation/views/widgets/health_instruction_card.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/utils/images.dart';
+import 'package:disease_detective/core/utils/strings.dart';
+import 'package:disease_detective/core/widgets/custom_app_bar.dart';
+import 'package:disease_detective/features/home/data/static/health_instruction_list.dart';
+import 'package:disease_detective/features/home/presentation/views/widgets/health_instruction_card.dart';
 
 class DetailsInfoScreen extends StatelessWidget {
   const DetailsInfoScreen({super.key});

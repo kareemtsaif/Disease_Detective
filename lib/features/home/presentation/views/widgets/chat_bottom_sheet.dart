@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/utils/strings.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/utils/strings.dart';
 
 class ChatBottomSheet extends StatelessWidget {
   const ChatBottomSheet({super.key});

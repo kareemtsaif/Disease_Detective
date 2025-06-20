@@ -1,6 +1,6 @@
 {
-    "name": "health_guard",
-    "short_name": "health_guard",
+    "name": "disease_detective",
+    "short_name": "disease_detective",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

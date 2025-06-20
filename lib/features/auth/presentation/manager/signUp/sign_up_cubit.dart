@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:health_guard/features/auth/data/repos/auth_repo.dart';
+import 'package:disease_detective/features/auth/data/repos/auth_repo.dart';
 
 part 'sign_up_state.dart';
 

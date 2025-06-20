@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:health_guard/core/utils/router.dart';
-import 'package:health_guard/core/utils/strings.dart';
-import 'package:health_guard/core/widgets/custom_head_title.dart';
-import 'package:health_guard/features/Diagnostics/presentation/views/breast_cancer_diagnosis_view.dart';
-import 'package:health_guard/features/Diagnostics/presentation/views/widgets/custom_button_diagnosis.dart';
+import 'package:disease_detective/core/utils/router.dart';
+import 'package:disease_detective/core/utils/strings.dart';
+import 'package:disease_detective/core/widgets/custom_head_title.dart';
+import 'package:disease_detective/features/Diagnostics/presentation/views/breast_cancer_diagnosis_view.dart';
+import 'package:disease_detective/features/Diagnostics/presentation/views/widgets/custom_button_diagnosis.dart';
 
 class DiseaseDetectionsBody extends StatelessWidget {
   const DiseaseDetectionsBody({super.key});
@@ -30,8 +30,6 @@ class DiseaseDetectionsBody extends StatelessWidget {
             CustomButtonDiagnosis(
               onPressed: () {
                 GoRouter.of(context).go(AppRouter.kDiabetesView);
-                
-                
               },
               buttonName: "Diabetes",
             ),

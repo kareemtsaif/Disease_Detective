@@ -1,7 +1,5 @@
-
-
 import 'package:flutter/material.dart';
-import 'package:health_guard/features/survey/presentation/views/widgets/choose_view_body.dart';
+import 'package:disease_detective/features/survey/presentation/views/widgets/choose_view_body.dart';
 
 class ChooseView extends StatelessWidget {
   const ChooseView({super.key});
@@ -10,7 +8,7 @@ class ChooseView extends StatelessWidget {
   Widget build(BuildContext context) {
     // log( 'Token is: $token');
     return const Scaffold(
-      body: ChooseViewBody(), 
+      body: ChooseViewBody(),
     );
   }
 }

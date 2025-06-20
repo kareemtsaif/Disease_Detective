@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/widgets/custom_svg.dart';
+import 'package:disease_detective/core/widgets/custom_svg.dart';
 import 'custom_switch.dart';
 
 class CustomSwitchTile extends StatelessWidget {
@@ -19,10 +19,10 @@ class CustomSwitchTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
-    
+
     return ListTile(
       contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-      leading:CustomSvg(
+      leading: CustomSvg(
         svgPath: icon,
         color: isDark ? Colors.grey[400] : Colors.grey[600],
         width: 24,

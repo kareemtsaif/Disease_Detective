@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
-import 'package:health_guard/core/utils/strings.dart';
-import 'package:health_guard/features/home/data/models/notification_model.dart';
+import 'package:disease_detective/core/utils/strings.dart';
+import 'package:disease_detective/features/home/data/models/notification_model.dart';
 
 class NotificationController extends ChangeNotifier {
   List<NotificationItem> _notifications = [];
-  
+
   List<NotificationItem> get notifications => List.unmodifiable(_notifications);
   int get unreadCount => _notifications.where((n) => !n.isRead).length;
   bool get hasUnread => unreadCount > 0;
@@ -18,7 +18,8 @@ class NotificationController extends ChangeNotifier {
       NotificationItem(
         id: '1',
         title: 'Additional Check-Up Recommended',
-        message: 'We recommend an additional medical check-up based on your entered symptoms',
+        message:
+            'We recommend an additional medical check-up based on your entered symptoms',
         hasButton: true,
         buttonText: AppString.start,
         isRead: false,
@@ -27,7 +28,8 @@ class NotificationController extends ChangeNotifier {
       NotificationItem(
         id: '2',
         title: 'Time for Your Routine Check-Up',
-        message: 'Routine check-ups help maintain your health and detect issues early',
+        message:
+            'Routine check-ups help maintain your health and detect issues early',
         hasButton: false,
         isRead: false,
         time: '1 day ago',
@@ -35,7 +37,8 @@ class NotificationController extends ChangeNotifier {
       NotificationItem(
         id: '3',
         title: 'Important Reminder',
-        message: 'Don\'t forget to review the symptoms you\'ve entered for an accurate diagnosis',
+        message:
+            'Don\'t forget to review the symptoms you\'ve entered for an accurate diagnosis',
         hasButton: false,
         isRead: false,
         time: '2 days ago',
@@ -43,7 +46,8 @@ class NotificationController extends ChangeNotifier {
       NotificationItem(
         id: '4',
         title: 'Analysis Complete',
-        message: 'Your data has been successfully analyzed. You can now view the results',
+        message:
+            'Your data has been successfully analyzed. You can now view the results',
         hasButton: false,
         isRead: false,
         time: '3 days ago',

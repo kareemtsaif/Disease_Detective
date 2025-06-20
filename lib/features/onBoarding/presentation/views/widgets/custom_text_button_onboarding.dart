@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:health_guard/core/utils/router.dart';
-import 'package:health_guard/core/utils/strings.dart';
-import 'package:health_guard/core/utils/colors.dart';
+import 'package:disease_detective/core/utils/router.dart';
+import 'package:disease_detective/core/utils/strings.dart';
+import 'package:disease_detective/core/utils/colors.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class CustomTextButtonOnboarding extends StatelessWidget {

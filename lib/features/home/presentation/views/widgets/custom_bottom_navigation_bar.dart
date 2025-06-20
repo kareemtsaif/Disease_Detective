@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/widgets/custom_svg.dart';
-import 'package:health_guard/features/home/data/static/navigation_list.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/widgets/custom_svg.dart';
+import 'package:disease_detective/features/home/data/static/navigation_list.dart';
 
 class CustomBottomNavigationBar extends StatelessWidget {
   final int currentIndex;
@@ -37,14 +37,14 @@ class CustomBottomNavigationBar extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               ...navItemList.take(2).map((item) => _buildNavItem(
-                svgPath: item.svgPath,
+                    svgPath: item.svgPath,
                     label: item.label,
                     index: navItemList.indexOf(item),
                     isActive: currentIndex == navItemList.indexOf(item),
                   )),
               const SizedBox(width: 64),
               ...navItemList.skip(2).map((item) => _buildNavItem(
-                svgPath: item.svgPath,
+                    svgPath: item.svgPath,
                     label: item.label,
                     index: navItemList.indexOf(item),
                     isActive: currentIndex == navItemList.indexOf(item),
@@ -79,23 +79,21 @@ class CustomBottomNavigationBar extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               AnimatedContainer(
-                duration: const Duration(milliseconds: 300),
-                padding: const EdgeInsets.all(2),
-                decoration: BoxDecoration(
-                  color: isActive
-                      ? AppColor.primaryLight.withOpacity(0.2)
-                      : AppColor.transparent,
-                  borderRadius: BorderRadius.circular(6),
-                ),
-                child: _buildIcon(svgPath, isActive)
-              ),
+                  duration: const Duration(milliseconds: 300),
+                  padding: const EdgeInsets.all(2),
+                  decoration: BoxDecoration(
+                    color: isActive
+                        ? AppColor.primaryLight.withOpacity(0.2)
+                        : AppColor.transparent,
+                    borderRadius: BorderRadius.circular(6),
+                  ),
+                  child: _buildIcon(svgPath, isActive)),
               const SizedBox(height: 2),
               Flexible(
                 child: AnimatedDefaultTextStyle(
                   duration: const Duration(milliseconds: 300),
                   style: TextStyle(
-                    color:
-                        isActive ? AppColor.primaryLight : AppColor.subColor,
+                    color: isActive ? AppColor.primaryLight : AppColor.subColor,
                     fontSize: isActive ? 11 : 10,
                     fontWeight: isActive ? FontWeight.w600 : FontWeight.normal,
                   ),
@@ -113,14 +111,15 @@ class CustomBottomNavigationBar extends StatelessWidget {
     );
   }
 }
-Widget _buildIcon(String svgPath, bool isActive) {
-    final iconSize = isActive ? 24.0 : 22.0;
-    final iconColor = isActive ? AppColor.primaryLight : AppColor.subColor;
 
-    return CustomSvg(
-      svgPath: svgPath,
-      width: iconSize,
-      height: iconSize,
-      color: iconColor,
-    );
-  }
+Widget _buildIcon(String svgPath, bool isActive) {
+  final iconSize = isActive ? 24.0 : 22.0;
+  final iconColor = isActive ? AppColor.primaryLight : AppColor.subColor;
+
+  return CustomSvg(
+    svgPath: svgPath,
+    width: iconSize,
+    height: iconSize,
+    color: iconColor,
+  );
+}

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:health_guard/core/utils/images.dart';
-import 'package:health_guard/core/utils/router.dart';
-import 'package:health_guard/core/utils/strings.dart';
-import 'package:health_guard/core/widgets/custom_button_primary.dart';
-import 'package:health_guard/core/widgets/title_sub_title_image.dart';
-import 'package:health_guard/features/auth/presentation/views/widgets/custom_text_field_auth.dart';
+import 'package:disease_detective/core/utils/images.dart';
+import 'package:disease_detective/core/utils/router.dart';
+import 'package:disease_detective/core/utils/strings.dart';
+import 'package:disease_detective/core/widgets/custom_button_primary.dart';
+import 'package:disease_detective/core/widgets/title_sub_title_image.dart';
+import 'package:disease_detective/features/auth/presentation/views/widgets/custom_text_field_auth.dart';
 
 class ForgetPasswordViewBody extends StatelessWidget {
   const ForgetPasswordViewBody({super.key});

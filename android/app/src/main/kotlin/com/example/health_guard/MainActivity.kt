@@ -1,4 +1,4 @@
-package com.example.health_guard
+package com.example.disease_detective
 
 import io.flutter.embedding.android.FlutterActivity
 

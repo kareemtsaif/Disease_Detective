@@ -1,21 +1,19 @@
-
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:health_guard/core/utils/images.dart';
-import 'package:health_guard/core/utils/router.dart';
-import 'package:health_guard/core/utils/strings.dart';
-import 'package:health_guard/core/widgets/custom_button_primary.dart';
-import 'package:health_guard/core/widgets/custom_head_title.dart';
-import 'package:health_guard/core/widgets/custom_image.dart';
-import 'package:health_guard/core/widgets/custom_sub_title.dart';
-import 'package:health_guard/features/survey/presentation/views/survey_view.dart';
-import 'package:health_guard/core/widgets/custom_button_secondary.dart';
+import 'package:disease_detective/core/utils/images.dart';
+import 'package:disease_detective/core/utils/router.dart';
+import 'package:disease_detective/core/utils/strings.dart';
+import 'package:disease_detective/core/widgets/custom_button_primary.dart';
+import 'package:disease_detective/core/widgets/custom_head_title.dart';
+import 'package:disease_detective/core/widgets/custom_image.dart';
+import 'package:disease_detective/core/widgets/custom_sub_title.dart';
+import 'package:disease_detective/features/survey/presentation/views/survey_view.dart';
+import 'package:disease_detective/core/widgets/custom_button_secondary.dart';
 
 class ChooseViewBody extends StatelessWidget {
   const ChooseViewBody({super.key});
 
   @override
-
   Widget build(BuildContext context) {
     return SafeArea(
       child: Padding(

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/widgets/custom_image.dart';
-import 'package:health_guard/core/widgets/custom_sub_title.dart';
+import 'package:disease_detective/core/widgets/custom_image.dart';
+import 'package:disease_detective/core/widgets/custom_sub_title.dart';
 import 'custom_head_title_back_button.dart';
 
 class TitleSubTitleImage extends StatelessWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/widgets/custom_head_title.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/widgets/custom_head_title.dart';
 
 class CustomHeadTitleBackButton extends StatelessWidget {
   const CustomHeadTitleBackButton({super.key, required this.title});

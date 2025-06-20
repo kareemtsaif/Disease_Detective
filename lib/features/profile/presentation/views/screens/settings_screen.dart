@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/providers/theme_provider.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/utils/icons.dart';
-import 'package:health_guard/core/widgets/custom_app_bar.dart';
-import 'package:health_guard/core/widgets/custom_divider.dart';
-import 'package:health_guard/features/profile/presentation/views/widgets/custom_dialogs_settings.dart';
-import 'package:health_guard/features/profile/presentation/views/widgets/custom_navigation_tile.dart';
-import 'package:health_guard/features/profile/presentation/views/widgets/custom_section_header_setting.dart';
-import 'package:health_guard/features/profile/presentation/views/widgets/custom_setting_card.dart';
-import 'package:health_guard/features/profile/presentation/views/widgets/custom_switch_tile.dart';
+import 'package:disease_detective/core/providers/theme_provider.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/utils/icons.dart';
+import 'package:disease_detective/core/widgets/custom_app_bar.dart';
+import 'package:disease_detective/core/widgets/custom_divider.dart';
+import 'package:disease_detective/features/profile/presentation/views/widgets/custom_dialogs_settings.dart';
+import 'package:disease_detective/features/profile/presentation/views/widgets/custom_navigation_tile.dart';
+import 'package:disease_detective/features/profile/presentation/views/widgets/custom_section_header_setting.dart';
+import 'package:disease_detective/features/profile/presentation/views/widgets/custom_setting_card.dart';
+import 'package:disease_detective/features/profile/presentation/views/widgets/custom_switch_tile.dart';
 
 class SettingsScreen extends StatelessWidget {
   final ThemeProvider themeProvider;

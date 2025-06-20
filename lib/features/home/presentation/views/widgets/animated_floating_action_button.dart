@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/utils/icons.dart';
-import 'package:health_guard/core/widgets/custom_svg.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/utils/icons.dart';
+import 'package:disease_detective/core/widgets/custom_svg.dart';
 
 class AnimatedFloatingActionButton extends StatelessWidget {
   final Animation<double> scaleAnimation;
@@ -53,13 +53,12 @@ class AnimatedFloatingActionButton extends StatelessWidget {
                   height: 56,
                   color: AppColor.primaryColor,
                   child: const SizedBox(
-                    width: 28,
-                    height: 28,
-                    child:  CustomSvg(
-                                  svgPath: AppIcon.scan,
-                                  // color: AppColor.white,
-                                )
-                  ),
+                      width: 28,
+                      height: 28,
+                      child: CustomSvg(
+                        svgPath: AppIcon.scan,
+                        // color: AppColor.white,
+                      )),
                 ),
               ),
             ),

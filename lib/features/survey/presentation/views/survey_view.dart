@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/features/survey/presentation/views/widgets/survey_view_body.dart';
+import 'package:disease_detective/features/survey/presentation/views/widgets/survey_view_body.dart';
 
 class SurveyView extends StatelessWidget {
   const SurveyView({super.key});

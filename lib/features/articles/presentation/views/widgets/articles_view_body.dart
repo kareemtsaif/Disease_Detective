@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/utils/strings.dart';
-import 'package:health_guard/features/articles/data/models/article.dart';
-import 'package:health_guard/features/articles/data/static/articles_list.dart';
-import 'package:health_guard/features/articles/presentation/views/screens/article_detail_screen.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/utils/strings.dart';
+import 'package:disease_detective/features/articles/data/models/article.dart';
+import 'package:disease_detective/features/articles/data/static/articles_list.dart';
+import 'package:disease_detective/features/articles/presentation/views/screens/article_detail_screen.dart';
 
 /// Screen that displays a searchable list of health articles
 class ArticleViewBody extends StatefulWidget {

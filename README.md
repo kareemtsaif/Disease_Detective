@@ -1,4 +1,4 @@
-# health_guard
+# disease_detective
 
 A new Flutter project.
 

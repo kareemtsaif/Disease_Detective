@@ -1,9 +1,10 @@
-import 'package:health_guard/core/utils/images.dart';
+import 'package:disease_detective/core/utils/images.dart';
 
 List<Map<String, dynamic>> tips = [
   {
     'title': 'Seasonal allergies or COVID-19',
-    'description': 'Washing hands regularly, wearing a mask, and social distancing',
+    'description':
+        'Washing hands regularly, wearing a mask, and social distancing',
     'image': AppImage.healthTipOne,
   },
   {

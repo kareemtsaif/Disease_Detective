@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/utils/strings.dart';
-import 'package:health_guard/core/widgets/custom_app_bar.dart';
-import 'package:health_guard/features/profile/data/models/medical_record_model.dart';
-import 'package:health_guard/features/profile/data/static/medical_records_list.dart';
-import 'package:health_guard/features/profile/presentation/views/widgets/custom_medical_record_card.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/utils/strings.dart';
+import 'package:disease_detective/core/widgets/custom_app_bar.dart';
+import 'package:disease_detective/features/profile/data/models/medical_record_model.dart';
+import 'package:disease_detective/features/profile/data/static/medical_records_list.dart';
+import 'package:disease_detective/features/profile/presentation/views/widgets/custom_medical_record_card.dart';
 
 class MedicalHistoryScreen extends StatefulWidget {
   const MedicalHistoryScreen({super.key});

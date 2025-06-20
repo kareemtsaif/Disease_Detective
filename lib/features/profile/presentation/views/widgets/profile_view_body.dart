@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/providers/theme_provider.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/utils/icons.dart';
-import 'package:health_guard/core/utils/strings.dart';
-import 'package:health_guard/features/profile/presentation/views/screens/edit_profile_screen.dart';
-import 'package:health_guard/features/profile/presentation/views/screens/medical_history_screen.dart';
-import 'package:health_guard/features/profile/presentation/views/screens/privacy_screen.dart';
-import 'package:health_guard/features/profile/presentation/views/screens/settings_screen.dart';
-import 'package:health_guard/core/widgets/custom_divider.dart';
-import 'package:health_guard/features/profile/presentation/views/widgets/custom_dialog_logout.dart';
-import 'package:health_guard/features/profile/presentation/views/widgets/custom_profile_image.dart';
-import 'package:health_guard/features/profile/presentation/views/widgets/custom_profile_option.dart';
+import 'package:disease_detective/core/providers/theme_provider.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/utils/icons.dart';
+import 'package:disease_detective/core/utils/strings.dart';
+import 'package:disease_detective/features/profile/presentation/views/screens/edit_profile_screen.dart';
+import 'package:disease_detective/features/profile/presentation/views/screens/medical_history_screen.dart';
+import 'package:disease_detective/features/profile/presentation/views/screens/privacy_screen.dart';
+import 'package:disease_detective/features/profile/presentation/views/screens/settings_screen.dart';
+import 'package:disease_detective/core/widgets/custom_divider.dart';
+import 'package:disease_detective/features/profile/presentation/views/widgets/custom_dialog_logout.dart';
+import 'package:disease_detective/features/profile/presentation/views/widgets/custom_profile_image.dart';
+import 'package:disease_detective/features/profile/presentation/views/widgets/custom_profile_option.dart';
 
 class ProfileViewBody extends StatelessWidget {
   const ProfileViewBody({super.key});

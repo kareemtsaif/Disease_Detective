@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/features/chatbot/presentation/views/widgets/chatbot_view_body.dart';
+import 'package:disease_detective/features/chatbot/presentation/views/widgets/chatbot_view_body.dart';
 
 class ChatbotView extends StatelessWidget {
   const ChatbotView({super.key});

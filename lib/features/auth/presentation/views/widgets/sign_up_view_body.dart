@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:health_guard/core/functions/custom_snack_bar.dart';
-import 'package:health_guard/core/utils/router.dart';
-import 'package:health_guard/core/utils/strings.dart';
-import 'package:health_guard/core/widgets/custom_button_primary.dart';
-import 'package:health_guard/core/widgets/custom_head_title.dart';
-import 'package:health_guard/core/widgets/custom_sub_title.dart';
-import 'package:health_guard/features/auth/presentation/manager/signUp/sign_up_cubit.dart';
-import 'package:health_guard/features/auth/presentation/views/widgets/custom_text_button_auth.dart';
-import 'package:health_guard/features/auth/presentation/views/widgets/custom_text_field_auth.dart';
+import 'package:disease_detective/core/functions/custom_snack_bar.dart';
+import 'package:disease_detective/core/utils/router.dart';
+import 'package:disease_detective/core/utils/strings.dart';
+import 'package:disease_detective/core/widgets/custom_button_primary.dart';
+import 'package:disease_detective/core/widgets/custom_head_title.dart';
+import 'package:disease_detective/core/widgets/custom_sub_title.dart';
+import 'package:disease_detective/features/auth/presentation/manager/signUp/sign_up_cubit.dart';
+import 'package:disease_detective/features/auth/presentation/views/widgets/custom_text_button_auth.dart';
+import 'package:disease_detective/features/auth/presentation/views/widgets/custom_text_field_auth.dart';
 
 class SignUpViewBody extends StatelessWidget {
   const SignUpViewBody({super.key});

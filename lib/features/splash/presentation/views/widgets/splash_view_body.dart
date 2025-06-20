@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:health_guard/core/utils/images.dart';
-import 'package:health_guard/core/utils/router.dart';
+import 'package:disease_detective/core/utils/images.dart';
+import 'package:disease_detective/core/utils/router.dart';
 
 class SplashViewBody extends StatefulWidget {
   const SplashViewBody({super.key});

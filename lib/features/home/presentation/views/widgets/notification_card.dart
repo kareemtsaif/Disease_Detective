@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/features/home/data/models/notification_model.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/features/home/data/models/notification_model.dart';
 
 class NotificationCard extends StatelessWidget {
   final NotificationItem notification;

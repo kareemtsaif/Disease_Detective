@@ -1,14 +1,13 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:dio/dio.dart';
-import 'package:health_guard/core/functions/auto_token_manger.dart';
-import 'package:health_guard/features/Diagnostics/presentation/manger/diabetes_state.dart';
+import 'package:disease_detective/core/functions/auto_token_manger.dart';
+import 'package:disease_detective/features/Diagnostics/presentation/manger/diabetes_state.dart';
 
 class DiabetesCubit extends Cubit<DiabetesState> {
   DiabetesCubit() : super(DiabetesInitial());
 
   Future<void> predict(Map<String, dynamic> data) async {
-
-        final token = await AuthTokenManager.getToken();
+    final token = await AuthTokenManager.getToken();
     emit(DiabetesLoading());
     try {
       final dio = Dio();

@@ -1,5 +1,5 @@
-import 'package:health_guard/core/utils/images.dart';
-import 'package:health_guard/features/onBoarding/data/models/onboarding_model.dart';
+import 'package:disease_detective/core/utils/images.dart';
+import 'package:disease_detective/features/onBoarding/data/models/onboarding_model.dart';
 
 List<OnBoardingModel> onBoardingList = [
   OnBoardingModel(

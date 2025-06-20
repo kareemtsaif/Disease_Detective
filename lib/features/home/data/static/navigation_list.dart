@@ -1,5 +1,5 @@
-import 'package:health_guard/core/utils/icons.dart';
-import 'package:health_guard/features/home/data/models/navigation_model.dart';
+import 'package:disease_detective/core/utils/icons.dart';
+import 'package:disease_detective/features/home/data/models/navigation_model.dart';
 
 List<NavItemModel> navItemList = [
   NavItemModel(svgPath: AppIcon.home, label: 'Home'),

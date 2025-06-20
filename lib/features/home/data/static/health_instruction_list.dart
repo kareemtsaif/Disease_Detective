@@ -1,4 +1,4 @@
-import 'package:health_guard/core/utils/images.dart';
+import 'package:disease_detective/core/utils/images.dart';
 
 List<Map<String, dynamic>> healthInstruction = [
   {

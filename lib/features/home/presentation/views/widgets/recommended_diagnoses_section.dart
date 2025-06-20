@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/utils/strings.dart';
-import 'package:health_guard/features/home/data/static/recommended_diagnoses_list.dart';
-import 'package:health_guard/features/home/presentation/views/screens/recommended_screen.dart';
-import 'package:health_guard/features/home/presentation/views/widgets/custom_diagnoses_card.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/utils/strings.dart';
+import 'package:disease_detective/features/home/data/static/recommended_diagnoses_list.dart';
+import 'package:disease_detective/features/home/presentation/views/screens/recommended_screen.dart';
+import 'package:disease_detective/features/home/presentation/views/widgets/custom_diagnoses_card.dart';
 
 class RecommendedDiagnosesSection extends StatelessWidget {
   const RecommendedDiagnosesSection({super.key});
@@ -25,11 +25,11 @@ class RecommendedDiagnosesSection extends StatelessWidget {
               ),
             ),
             TextButton(
-              onPressed: () => (
-                Navigator.push(context, MaterialPageRoute(
-                  builder: (context) => const RecommendedView(),
-                ))
-              ),
+              onPressed: () => (Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const RecommendedView(),
+                  ))),
               child: const Text(
                 AppString.viewAll,
                 style: TextStyle(
@@ -65,4 +65,3 @@ class RecommendedDiagnosesSection extends StatelessWidget {
     );
   }
 }
-

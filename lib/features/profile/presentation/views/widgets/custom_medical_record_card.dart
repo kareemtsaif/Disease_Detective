@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/features/profile/data/models/medical_record_model.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/features/profile/data/models/medical_record_model.dart';
 
 class CustomMedicalRecordCard extends StatelessWidget {
-  const CustomMedicalRecordCard({super.key, required this.record, });
+  const CustomMedicalRecordCard({
+    super.key,
+    required this.record,
+  });
   final MedicalRecord record;
 
   @override

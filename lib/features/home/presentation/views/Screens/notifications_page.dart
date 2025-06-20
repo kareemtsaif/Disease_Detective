@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/controllers/notification_controller.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/utils/strings.dart';
-import 'package:health_guard/core/widgets/custom_head_title.dart';
-import 'package:health_guard/features/home/data/models/notification_model.dart';
-import 'package:health_guard/features/home/presentation/views/widgets/assessment_modal.dart';
-import 'package:health_guard/features/home/presentation/views/widgets/notification_card.dart';
+import 'package:disease_detective/core/controllers/notification_controller.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/utils/strings.dart';
+import 'package:disease_detective/core/widgets/custom_head_title.dart';
+import 'package:disease_detective/features/home/data/models/notification_model.dart';
+import 'package:disease_detective/features/home/presentation/views/widgets/assessment_modal.dart';
+import 'package:disease_detective/features/home/presentation/views/widgets/notification_card.dart';
 
 class NotificationsPage extends StatefulWidget {
   final NotificationController controller;

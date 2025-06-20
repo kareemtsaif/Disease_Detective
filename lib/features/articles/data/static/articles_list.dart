@@ -1,5 +1,5 @@
-import 'package:health_guard/core/utils/images.dart';
-import 'package:health_guard/features/articles/data/models/article.dart';
+import 'package:disease_detective/core/utils/images.dart';
+import 'package:disease_detective/features/articles/data/models/article.dart';
 
 final List<Article> articles = [
   Article(

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/widgets/custom_head_title_back_button.dart';
-import 'package:health_guard/features/articles/data/models/article.dart';
-import 'package:health_guard/features/articles/presentation/views/widgets/custom_button_readmore.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/widgets/custom_head_title_back_button.dart';
+import 'package:disease_detective/features/articles/data/models/article.dart';
+import 'package:disease_detective/features/articles/presentation/views/widgets/custom_button_readmore.dart';
 
 class ArticleDetailScreen extends StatelessWidget {
   final Article article;

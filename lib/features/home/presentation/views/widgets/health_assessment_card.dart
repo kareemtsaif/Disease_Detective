@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/utils/images.dart';
-import 'package:health_guard/core/utils/strings.dart';
-import 'package:health_guard/features/survey/presentation/views/choose_view.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/utils/images.dart';
+import 'package:disease_detective/core/utils/strings.dart';
+import 'package:disease_detective/features/survey/presentation/views/choose_view.dart';
 
 class HealthAssessmentCard extends StatelessWidget {
-
   const HealthAssessmentCard({super.key});
 
   @override
@@ -37,7 +36,7 @@ class HealthAssessmentCard extends StatelessWidget {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) =>  const ChooseView()));
+                            builder: (context) => const ChooseView()));
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: AppColor.primaryColor,

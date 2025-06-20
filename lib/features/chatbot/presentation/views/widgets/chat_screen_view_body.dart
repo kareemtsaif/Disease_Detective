@@ -1,12 +1,12 @@
 import 'package:chat_bubbles/bubbles/bubble_special_three.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:health_guard/core/controllers/chat_cubit/chat_bot_cubit.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/utils/icons.dart';
-import 'package:health_guard/core/utils/images.dart';
-import 'package:health_guard/core/widgets/custom_svg.dart';
-import 'package:health_guard/features/chatbot/presentation/views/widgets/custom_app_bar_for_chat_bot.dart';
+import 'package:disease_detective/core/controllers/chat_cubit/chat_bot_cubit.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/utils/icons.dart';
+import 'package:disease_detective/core/utils/images.dart';
+import 'package:disease_detective/core/widgets/custom_svg.dart';
+import 'package:disease_detective/features/chatbot/presentation/views/widgets/custom_app_bar_for_chat_bot.dart';
 
 class ChatScreenViewBody extends StatelessWidget {
   const ChatScreenViewBody({super.key});

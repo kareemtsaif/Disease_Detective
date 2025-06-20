@@ -1,10 +1,10 @@
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
-import 'package:health_guard/core/errors/failures.dart';
-import 'package:health_guard/core/helpers/api_service.dart';
-import 'package:health_guard/features/auth/data/models/login_model/login_model.dart';
-import 'package:health_guard/features/auth/data/models/signup_model/signup_model.dart';
-import 'package:health_guard/features/auth/data/repos/auth_repo.dart';
+import 'package:disease_detective/core/errors/failures.dart';
+import 'package:disease_detective/core/helpers/api_service.dart';
+import 'package:disease_detective/features/auth/data/models/login_model/login_model.dart';
+import 'package:disease_detective/features/auth/data/models/signup_model/signup_model.dart';
+import 'package:disease_detective/features/auth/data/repos/auth_repo.dart';
 
 class AuthRepoImpl implements AuthRepo {
   final ApiService apiService;

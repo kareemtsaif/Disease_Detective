@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/features/onBoarding/presentation/manager/onBoarding/on_boarding_cubit.dart';
-import 'package:health_guard/features/onBoarding/data/static/on_boarding_list.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/features/onBoarding/presentation/manager/onBoarding/on_boarding_cubit.dart';
+import 'package:disease_detective/features/onBoarding/data/static/on_boarding_list.dart';
 
 class CustomSlider extends StatelessWidget {
   final void Function(int)? onPageChanged;

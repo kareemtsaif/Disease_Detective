@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/utils/colors.dart';
+import 'package:disease_detective/core/utils/colors.dart';
 
 class CustomButtonPrimary extends StatelessWidget {
   const CustomButtonPrimary({

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/utils/strings.dart';
-import 'package:health_guard/core/widgets/custom_button_primary.dart';
-import 'package:health_guard/core/widgets/custom_head_title.dart';
-import 'package:health_guard/core/widgets/custom_sub_title.dart';
-import 'package:health_guard/features/survey/data/static/survey_list.dart';
-import 'package:health_guard/features/survey/presentation/views/survey_finish_view.dart';
-import 'package:health_guard/core/widgets/custom_button_secondary.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/utils/strings.dart';
+import 'package:disease_detective/core/widgets/custom_button_primary.dart';
+import 'package:disease_detective/core/widgets/custom_head_title.dart';
+import 'package:disease_detective/core/widgets/custom_sub_title.dart';
+import 'package:disease_detective/features/survey/data/static/survey_list.dart';
+import 'package:disease_detective/features/survey/presentation/views/survey_finish_view.dart';
+import 'package:disease_detective/core/widgets/custom_button_secondary.dart';
 import 'package:step_progress_indicator/step_progress_indicator.dart';
 
 class SurveyViewBody extends StatefulWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/features/articles/data/models/article.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/features/articles/data/models/article.dart';
 
 class CustomButtonReadmore extends StatelessWidget {
   const CustomButtonReadmore(

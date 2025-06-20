@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:health_guard/core/utils/router.dart';
-import 'package:health_guard/core/utils/strings.dart';
-import 'package:health_guard/core/widgets/custom_button_primary.dart';
-import 'package:health_guard/features/onBoarding/presentation/manager/onBoarding/on_boarding_cubit.dart';
-import 'package:health_guard/features/onBoarding/presentation/views/widgets/custom_text_button_onboarding.dart';
-import 'package:health_guard/features/onBoarding/presentation/views/widgets/dot_controller.dart';
-import 'package:health_guard/features/onBoarding/presentation/views/widgets/custom_slider.dart';
+import 'package:disease_detective/core/utils/router.dart';
+import 'package:disease_detective/core/utils/strings.dart';
+import 'package:disease_detective/core/widgets/custom_button_primary.dart';
+import 'package:disease_detective/features/onBoarding/presentation/manager/onBoarding/on_boarding_cubit.dart';
+import 'package:disease_detective/features/onBoarding/presentation/views/widgets/custom_text_button_onboarding.dart';
+import 'package:disease_detective/features/onBoarding/presentation/views/widgets/dot_controller.dart';
+import 'package:disease_detective/features/onBoarding/presentation/views/widgets/custom_slider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class OnBoardingViewBody extends StatelessWidget {

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/utils/colors.dart';
-import 'package:health_guard/core/utils/strings.dart';
-import 'package:health_guard/core/widgets/custom_button_primary.dart';
-import 'package:health_guard/core/widgets/custom_button_secondary.dart';
-import 'package:health_guard/core/widgets/custom_head_title_back_button.dart';
-import 'package:health_guard/features/Diagnostics/presentation/views/breast_cancer_diagnosis_result_view.dart';
-import 'package:health_guard/features/Diagnostics/presentation/views/widgets/custom_smooth_corner_painter.dart';
+import 'package:disease_detective/core/utils/colors.dart';
+import 'package:disease_detective/core/utils/strings.dart';
+import 'package:disease_detective/core/widgets/custom_button_primary.dart';
+import 'package:disease_detective/core/widgets/custom_button_secondary.dart';
+import 'package:disease_detective/core/widgets/custom_head_title_back_button.dart';
+import 'package:disease_detective/features/Diagnostics/presentation/views/breast_cancer_diagnosis_result_view.dart';
+import 'package:disease_detective/features/Diagnostics/presentation/views/widgets/custom_smooth_corner_painter.dart';
 
 class BreastCancerDiagnosisBody extends StatelessWidget {
   const BreastCancerDiagnosisBody({super.key});

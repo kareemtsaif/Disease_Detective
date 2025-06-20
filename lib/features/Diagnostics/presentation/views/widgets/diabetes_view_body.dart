@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:health_guard/core/utils/router.dart';
-import 'package:health_guard/features/Diagnostics/presentation/manger/diabetes_cubit.dart';
-import 'package:health_guard/features/Diagnostics/presentation/manger/diabetes_state.dart';
+import 'package:disease_detective/core/utils/router.dart';
+import 'package:disease_detective/features/Diagnostics/presentation/manger/diabetes_cubit.dart';
+import 'package:disease_detective/features/Diagnostics/presentation/manger/diabetes_state.dart';
 
 class DiabetesViewBody extends StatefulWidget {
   const DiabetesViewBody({super.key});
@@ -391,8 +391,8 @@ class _DiabetesViewBodyState extends State<DiabetesViewBody> {
 // import 'package:flutter/material.dart';
 // import 'package:dio/dio.dart';
 // import 'package:go_router/go_router.dart';
-// import 'package:health_guard/core/utils/colors.dart';
-// import 'package:health_guard/core/utils/router.dart';
+// import 'package:disease_detective/core/utils/colors.dart';
+// import 'package:disease_detective/core/utils/router.dart';
 // import 'package:shared_preferences/shared_preferences.dart';
 // import 'package:step_progress_indicator/step_progress_indicator.dart';
 

@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:health_guard/core/controllers/notification_controller.dart';
-import 'package:health_guard/features/articles/presentation/views/articles_view.dart';
-import 'package:health_guard/features/chatbot/presentation/views/chatbot_view.dart';
-import 'package:health_guard/features/home/presentation/views/screens/home_screen.dart';
-import 'package:health_guard/features/home/presentation/views/screens/notifications_page.dart';
-import 'package:health_guard/features/home/presentation/views/widgets/animated_floating_action_button.dart';
-import 'package:health_guard/features/home/presentation/views/widgets/chat_bottom_sheet.dart';
-import 'package:health_guard/features/home/presentation/views/widgets/custom_bottom_navigation_bar.dart';
-import 'package:health_guard/features/profile/presentation/views/profile_view.dart';
+import 'package:disease_detective/core/controllers/notification_controller.dart';
+import 'package:disease_detective/features/articles/presentation/views/articles_view.dart';
+import 'package:disease_detective/features/chatbot/presentation/views/chatbot_view.dart';
+import 'package:disease_detective/features/home/presentation/views/screens/home_screen.dart';
+import 'package:disease_detective/features/home/presentation/views/screens/notifications_page.dart';
+import 'package:disease_detective/features/home/presentation/views/widgets/animated_floating_action_button.dart';
+import 'package:disease_detective/features/home/presentation/views/widgets/chat_bottom_sheet.dart';
+import 'package:disease_detective/features/home/presentation/views/widgets/custom_bottom_navigation_bar.dart';
+import 'package:disease_detective/features/profile/presentation/views/profile_view.dart';
 
 class HomeViewBody extends StatefulWidget {
-
   const HomeViewBody({super.key});
 
   @override
