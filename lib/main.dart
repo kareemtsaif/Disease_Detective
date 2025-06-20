@@ -15,7 +15,7 @@ void main() async {
   late final String initialRoute;
 
   if (!hasSeenOnboarding) {
-    initialRoute = AppRouter.kOnBoardingView;
+    initialRoute = AppRouter.kSplashView;
   } else if (token != null && token.isNotEmpty) {
     initialRoute = AppRouter.kHomeView;
   } else {

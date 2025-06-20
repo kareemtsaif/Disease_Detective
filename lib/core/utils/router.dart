@@ -1,4 +1,5 @@
 import 'package:dio/dio.dart';
+import 'package:disease_detective/features/splash/presentation/views/splash_view.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 import 'package:disease_detective/core/helpers/api_service.dart';
@@ -31,11 +32,16 @@ abstract class AppRouter {
   static const kDiseaseDetectionView = '/diseaseDetectionView';
   static const kDiabetesView = '/diabetesViewBody';
   static const kDiabetesForm = '/diabetesForm';
+  static const kSplashView = '/splashView';
 
   static GoRouter buildRouter(String initialLocation) {
     return GoRouter(
       initialLocation: initialLocation, // ✅ ده هو التعديل الأساسي
       routes: [
+        GoRoute(
+          path: kSplashView,
+          builder: (context, state) => const SplashView(),
+        ),
         GoRoute(
           path: '/',
           builder: (context, state) => const HomeView(), // تقدر تغيرها لو عايز
