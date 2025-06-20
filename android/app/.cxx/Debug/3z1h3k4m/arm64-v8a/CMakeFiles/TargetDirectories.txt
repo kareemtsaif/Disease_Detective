@@ -1,0 +1,2 @@
+D:/hi/HealthGuard-main-main/android/app/.cxx/Debug/3z1h3k4m/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/hi/HealthGuard-main-main/android/app/.cxx/Debug/3z1h3k4m/arm64-v8a/CMakeFiles/rebuild_cache.dir
