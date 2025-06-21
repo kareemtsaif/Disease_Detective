@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:disease_detective/core/functions/custom_snack_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:disease_detective/core/utils/colors.dart';
@@ -103,11 +104,34 @@ class _BreastCancerDiagnosisBodyState extends State<BreastCancerDiagnosisBody> {
               CustomButtonPrimary(
                 buttonName: AppString.scan,
                 onPressed: () {
-                  if (_pickedImage == null) return;
-                  Navigator.of(context).push(MaterialPageRoute(
-                    builder: (context) =>
-                        const BreastCancerDiagnosisResultView(),
-                  ));
+                  if (_pickedImage == null) {
+                    customSnackbar(context, 'upload a photo first');
+                  } else {
+                    showDialog(
+                      context: context,
+                      barrierDismissible: false,
+                      builder: (context) => const Center(
+                        child: CircularProgressIndicator(
+                          color: AppColor.primaryColor,
+                        ),
+                      ),
+                    );
+                    Future.delayed(
+                      const Duration(seconds: 5),
+                      () {
+                        Navigator.of(context).pop(); // Close the loading dialog
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                BreastCancerDiagnosisResultView(
+                              image: _pickedImage!,
+                            ),
+                          ),
+                        );
+                      },
+                    );
+                  }
                 },
               ),
               const SizedBox(height: 15),
