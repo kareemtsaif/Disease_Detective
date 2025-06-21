@@ -18,7 +18,7 @@ class CustomProfileImage extends StatelessWidget {
             decoration: const BoxDecoration(
               shape: BoxShape.circle,
               image: DecorationImage(
-                image: AssetImage(AppImage.profile),
+                image: AssetImage(AppImage.photo),
                 fit: BoxFit.cover,
               ),
             ),

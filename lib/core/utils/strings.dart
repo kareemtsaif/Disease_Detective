@@ -67,7 +67,7 @@ class AppString {
 
   static const String continueToHome = "Continue to Home";
   static const String myDiagnosis = "My Diagnosis";
-  static const String breastCancer = "Breast Cancer";
+  static const String breastCancer = "Skin Cancer";
 
   static const String lungCancer = "Lung Cancer";
   static const String kidneyStones = "Kidney Stones";
@@ -105,7 +105,7 @@ class AppString {
   static const String start = "Start";
 
   static const String typeYourMessage = "Type your message...";
-  static const String profileName = "Hello Roaa";
+  static const String profileName = "Hello, D/ Ahmed Saleh";
   static const String greetingMessage =
       "I can help you learn more about your health";
   static const String assessmentCardDescription =
@@ -136,8 +136,4 @@ class AppString {
   static const String privacy = "Privacy";
   static const String logout = "Logout";
   static const String saveChanges = "Save Changes";
-
-
-
-  
 }

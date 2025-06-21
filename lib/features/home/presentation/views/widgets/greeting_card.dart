@@ -66,7 +66,7 @@ class _GreetingCardState extends State<GreetingCard>
       child: Row(
         children: [
           const CircleAvatar(
-              radius: 25, backgroundImage: AssetImage(AppImage.profile)),
+              radius: 25, backgroundImage: AssetImage(AppImage.photo)),
           const SizedBox(width: 12),
           const Expanded(
             child: Column(
