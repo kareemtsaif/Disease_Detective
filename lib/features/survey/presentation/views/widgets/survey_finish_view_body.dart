@@ -21,7 +21,7 @@ class SurveyFinishViewBody extends StatelessWidget {
           child: Column(
             mainAxisSize: MainAxisSize.max,
             children: [
-              const CustomHeadTitle(title: AppString.chatbot),
+              const CustomHeadTitle(title: AppString.subTitleSurveyFinish),
               const SizedBox(height: 16),
               const CustomSubTitle(subtitle: AppString.subTitleSurveyFinish),
               const Spacer(flex: 1),
