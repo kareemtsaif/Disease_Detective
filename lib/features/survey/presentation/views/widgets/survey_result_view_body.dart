@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:disease_detective/core/utils/images.dart';
-import 'package:disease_detective/core/utils/router.dart';
 import 'package:disease_detective/core/utils/strings.dart';
 import 'package:disease_detective/core/widgets/custom_button_primary.dart';
 import 'package:disease_detective/core/widgets/custom_head_title.dart';
@@ -16,8 +15,9 @@ class SurveyResultViewBody extends StatelessWidget {
     return SafeArea(
         child: Padding(
       padding: const EdgeInsets.only(top: 30, left: 15, right: 15, bottom: 15),
-      child: Center(
+      child: SingleChildScrollView(
         child: Column(
+          mainAxisSize: MainAxisSize.min,
           children: [
             const CustomHeadTitle(title: AppString.surveyResults),
             const SizedBox(height: 50),
@@ -47,13 +47,14 @@ class SurveyResultViewBody extends StatelessWidget {
               number: "3",
               advice: resultData['advice3'],
             ),
-            const Spacer(flex: 3),
+            const SizedBox(height: 40),
             CustomButtonPrimary(
-                onPressed: () {
-                  GoRouter.of(context).go(AppRouter.kHomeView);
-                },
-                buttonName: AppString.continueToHome),
-            const Spacer(flex: 3),
+              onPressed: () {
+                GoRouter.of(context).go('/');
+              },
+              buttonName: AppString.continueToHome,
+            ),
+            const SizedBox(height: 40),
           ],
         ),
       ),

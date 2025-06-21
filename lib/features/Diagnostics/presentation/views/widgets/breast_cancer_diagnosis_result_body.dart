@@ -24,29 +24,36 @@ class BreastCancerDiagnosisResultBody extends StatelessWidget {
               const SizedBox(height: 30),
               const CustomImage(image: AppImage.xRayResults),
               const SizedBox(height: 30),
-              const Row(mainAxisAlignment: MainAxisAlignment.center, children: [
-                Icon(Icons.error_outline, color: AppColor.red, size: 30),
-                SizedBox(width: 5),
-                Text(
-                  AppString.breastCancer,
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    color: AppColor.primaryColor,
-                    fontSize: 20,
-                    fontWeight: FontWeight.w700,
+              const Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(
+                    Icons.check_circle_outline,
+                    color: Colors.green,
+                    size: 60, // أيقونة خضراء كبيرة
                   ),
-                ),
-              ]),
-              const SizedBox(height: 10),
+                  SizedBox(width: 10),
+                  Text(
+                    "You Are Healthy!",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.green,
+                      fontSize: 28, // نص كبير
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 20),
               const SizedBox(
-                width: 340,
+                width: double.infinity,
                 child: Text(
                   textAlign: TextAlign.center,
-                  AppString.xRayResultsDescription,
+                  "Congratulations! No signs of Skin Cancer were detected in your scan. Stay healthy and keep taking care of yourself. We are always here for your peace of mind.",
                   style: TextStyle(
                     color: AppColor.subColor,
-                    fontSize: 16,
-                    fontWeight: FontWeight.w400,
+                    fontSize: 20, // نص أكبر
+                    fontWeight: FontWeight.w500,
                   ),
                 ),
               ),
