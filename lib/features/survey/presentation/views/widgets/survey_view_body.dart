@@ -1,3 +1,4 @@
+import 'package:disease_detective/core/functions/custom_snack_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:disease_detective/core/utils/colors.dart';
 import 'package:disease_detective/core/utils/strings.dart';
@@ -120,6 +121,11 @@ class SurveyViewBodyState extends State<SurveyViewBody> {
                 const SizedBox(height: 110),
                 CustomButtonPrimary(
                   onPressed: () {
+                    if (selectedAnswer == null) {
+                      customSnackbar(
+                          context, "Please select an answer before continuing");
+                      return;
+                    }
                     if (widget.currentIndex < surveyQuestions.length - 1) {
                       Navigator.push(
                         context,
